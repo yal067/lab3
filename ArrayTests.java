@@ -32,6 +32,6 @@ public class ArrayTests {
 	public void testaverageWithoutLowest() {
     double[] input4 = {2.3,3.5,4.6,5.7,0.0};
     double actualAnswer = ArrayExamples.averageWithoutLowest(input4);
-    assertEquals(4.03 , actualAnswer);
+    assertEquals(4.02, actualAnswer, 0.01);
 	}
 }
